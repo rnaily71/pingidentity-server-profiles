@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datasources>
+    <local-tx-datasource maskAttributeValues="false">
+        <description>pg-pfUsers</description>
+        <name>pg-pfUsers</name>
+        <jndi-name>JDBC-827506A0237FE12B6F4CA16A678D509B5C869E4B</jndi-name>
+        <connection-url>jdbc:postgresql://pg-pingfed:5432/postgres</connection-url>
+        <driver-class>org.postgresql.Driver</driver-class>
+        <user-name>docker</user-name>
+        <password>eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiUWVzOVR5eTV5WiIsInZlcnNpb24iOiIxMS4wLjAuMTEifQ..Wlt9VHsLPnLUC61cPj58sg.h9UtCXHT8sT1Lcd8hNmEvnt4TQGgPN9wiP-E6VHE5hM.6efCfBTrzfqnAt7Db5kiCw</password>
+        <min-pool-size>10</min-pool-size>
+        <max-pool-size>100</max-pool-size>
+        <blocking-timeout-millis>5000</blocking-timeout-millis>
+        <idle-timeout-minutes>5</idle-timeout-minutes>
+        <ping-db-type>Custom</ping-db-type>
+        <allow-multi-value-attributes>true</allow-multi-value-attributes>
+        <connectionTagList>
+            <tagEntry connection-url="jdbc:postgresql://pg-pingfed:5432/postgres" tags=""/>
+        </connectionTagList>
+    </local-tx-datasource>
+    <local-tx-datasource maskAttributeValues="false">
+        <description>ProvisionerDS (sa)</description>
+        <name>ProvisionerDS (sa)</name>
+        <jndi-name>ProvisionerDS</jndi-name>
+        <connection-url>jdbc:hsqldb:${pf.server.data.dir}${/}hypersonic${/}ProvisionerDefaultDB;hsqldb.lock_file=false</connection-url>
+        <driver-class>org.hsqldb.jdbcDriver</driver-class>
+        <user-name>sa</user-name>
+        <password>eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiUWVzOVR5eTV5WiIsInZlcnNpb24iOiIxMS4wLjAuMTEifQ..o8LpTjRglRVZR-NLdhI4sw.rtNl31llc_uwbt7i1M6Pmw.FxHa73g3L-sXpxN88pjYbA</password>
+        <ping-db-type>Custom</ping-db-type>
+        <allow-multi-value-attributes>false</allow-multi-value-attributes>
+        <connectionTagList>
+            <tagEntry connection-url="jdbc:hsqldb:${pf.server.data.dir}${/}hypersonic${/}ProvisionerDefaultDB;hsqldb.lock_file=false" tags=""/>
+        </connectionTagList>
+    </local-tx-datasource>
+</datasources>

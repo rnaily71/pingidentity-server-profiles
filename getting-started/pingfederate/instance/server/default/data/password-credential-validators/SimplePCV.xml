@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urn:PluginConfiguration isInheritExtendedContractAttributes="false" name="SimplePCV" xmlns:urn="urn:sourceid.org:saml2:adapter:conf">
+    <urn:Fields/>
+    <urn:AdvancedFields/>
+    <urn:Tables>
+        <urn:Table name="Users">
+            <urn:Row defaultRow="false">
+                <urn:Field name="Username">rck</urn:Field>
+                <urn:Field name="Password">CoHP2rZOPcFR4PtLEVbSRI5aKOh-U7dL9CGaBoctSp4.hBx_QDgP.2</urn:Field>
+                <urn:Field name="Confirm Password">H5Ag566746KdHt7K82Y3sylMfPKVUKFRz8ZJZA7jh7M.o2S8pi46.2</urn:Field>
+                <urn:Field name="Relax Password Requirements">false</urn:Field>
+            </urn:Row>
+            <urn:Row defaultRow="false">
+                <urn:Field name="Username">bob</urn:Field>
+                <urn:Field name="Password">SiiaDWqK04iEUoVGekvMBE6T9lDRXxszVVJcIIQ1R5k.XNPy0Cxv.2</urn:Field>
+                <urn:Field name="Confirm Password">uTyaPDFNigWpWsBHKArem1qP-A-OE3SBBKk7bbDWKq8.xggWdb2S.2</urn:Field>
+                <urn:Field name="Relax Password Requirements">false</urn:Field>
+            </urn:Row>
+            <urn:Row defaultRow="false">
+                <urn:Field name="Username">raf</urn:Field>
+                <urn:Field name="Password">sgK_PdCLE4Xlf89gb6jHNuMHjN-xQMdkYz3--Rr3LX0.xvLXqm96.2</urn:Field>
+                <urn:Field name="Confirm Password">nGRuhxH5dXLYelh0n3MaBq8mHHM39YPSr5fI7fDHMyo.BnUqtg78.2</urn:Field>
+                <urn:Field name="Relax Password Requirements">false</urn:Field>
+            </urn:Row>
+        </urn:Table>
+    </urn:Tables>
+    <urn:ExtendedAttributesAdditionalProperties/>
+</urn:PluginConfiguration>
