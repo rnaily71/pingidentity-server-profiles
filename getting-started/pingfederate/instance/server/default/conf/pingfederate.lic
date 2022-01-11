@@ -1,0 +1,14 @@
+ID=00313839
+WSTrustSTS=true
+OAuth=true
+SaasProvisioning=true
+Product=PingFederate
+Version=11.0
+EnforcementType=3
+Tier=Free
+IssueDate=2022-01-10
+ExpirationDate=2023-02-28
+DeploymentMethod=Traditional
+Organization=Ping Identity Corporation
+SignCode=FF0F
+Signature=302D02150089FB599E62E9E3A2B83F5F26D9DCB7910E35201E02147BAAC064E4C5C90BF8CD642D55AE8FDB901D0D51
